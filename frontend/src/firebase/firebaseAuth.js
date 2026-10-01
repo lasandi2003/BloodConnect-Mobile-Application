@@ -8,6 +8,7 @@ import AsyncStorage from "@react-native-async-storage/async-storage";
 
 import app from "./firebaseConfig";
 
+/** @type {import("firebase/auth").Auth} */
 let auth;
 
 if (Platform.OS === "web") {
